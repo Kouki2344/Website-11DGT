@@ -1,0 +1,450 @@
+
+
+/* background gif */
+body {
+    background-image: url('https://cdn.dribbble.com/userupload/19622078/file/original-1f03e8b5a276cd26363e2294372554a5.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    /* page no margin */
+    body { padding: 0; margin: 0; }
+
+    /* navigator */
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+        text-align: center;
+        height: 2rem;
+        padding-top: 1%;
+      }
+      
+      .topnav a{
+        float: none;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1.5%;
+        padding-left: 2%;
+        text-decoration: none;
+        font-size: 18px;
+        height: inherit;
+      }
+      
+      /* navigator hover effect */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* page 1 starts here */
+      /* position and style for images, text or border */
+      .border {
+        border-radius: 25px;
+        border: 2px solid rgb(25, 144, 212);
+        position: relative; left: 20px;
+        width: 740px;
+        height: 240px;
+      }
+      
+      .intro{
+        position: relative; left: 300px;
+        color:rgb(15, 112, 168);
+      }
+
+      .dsp{
+        position: relative; left: 20px;
+      }
+
+      .Apple_Products {
+        float: right;
+        position: absolute; right: 80px; top: 335px;
+      }
+
+     .pos_top3{
+      text-align: center;
+      position: relative; top: 20px;
+      color:rgb(225, 196, 28)
+     }
+
+      .pos_iphone{
+       text-align: center;
+       position: relative; top: 20px;
+      }
+
+      .iphone_dsp{
+        text-align: center;
+        position: relative; top: 20px;
+      }
+
+      .iPhones{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative; top: 20px;
+      }
+
+      .pos_ipad{
+        text-align: center;
+        position: relative; top: 10px;
+       }
+       
+       .ipad_dsp{
+        text-align: center;
+        position: relative; top: 10px;
+      }
+      
+      .iPads{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative; top: 10px;
+      }
+
+      .pos_airpod{
+        text-align: center;
+        position: relative; top: 10px;
+       }
+
+       .airpod_dsp{
+        text-align: center;
+        position: relative; top: 10px;
+      }
+
+      .AirPods{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative; top: 10px;
+      }
+
+      /* footer starts here */
+      footer{
+        background-color: rgb(34, 197, 197);
+        text-align: center;
+        position: relative; top: 10px;
+      }
+      
+      /* page 2 starts here */
+      .Crazy_Features{
+        text-align: center;
+        color:rgb(208, 184, 46);
+      }
+      
+      /* position and style for images, text or border */
+      .AirDrop{
+        position: relative; left: 30px;
+        border-radius: 25px;
+        background: #cadbde;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+      }
+
+      .AirDrop2, .Airdrop3{
+        text-align: center;
+      }
+      
+      .AirDrop4{
+        position: relative; bottom:220px; left: 650px;
+      }
+
+      .Face{
+        position: relative; bottom:150px; left: 630px;
+        border-radius: 25px;
+        background: #cadbde;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+      }
+
+      .Face2, .Face3{
+        text-align: center;
+      }
+
+      .Face4{
+        position: relative; bottom:200px; right:640px;
+      }
+      
+      .Short{
+        position: relative; bottom:150px; right: 670px;
+        border-radius: 25px;
+        background: #cadbde;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+      }
+
+      .Short2, .Short3{
+        text-align: center;
+      }
+
+      .Short4{
+        position: relative; bottom:220px; left:650px;
+      }
+
+      .AirPlay{
+        position: relative; bottom:150px; left: 630px;
+        border-radius: 25px;
+        background: #cadbde;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+      }
+
+      .AirPlay2, .AirPlay3{
+        text-align: center;
+      }
+
+      .AirPlay4{
+        position: relative; bottom:220px; right:650px;
+      }
+
+      .Control{
+        position: relative; bottom:150px; right: 670px;
+        border-radius: 25px;
+        background: #cadbde;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+        
+      }
+
+      .Control2, .Control3{
+        text-align: center;
+      }
+
+      .Control4{
+        position: relative; bottom:220px; left:650px; 
+      }
+      
+      /* position of arrows */
+      .arrow1{
+        position: relative; left:560px; bottom:1650px; 
+      }
+      
+      .arrow2{
+        position: relative; left: 490px; bottom:1320px; 
+        transform: rotateY(180deg);
+      }
+
+      .arrow3{
+        position: relative; left:450px; bottom:1010px; 
+      }
+
+      .arrow4{
+        position: relative; left:380px; bottom:680px; 
+        transform: rotateY(180deg);
+      }
+
+      .arrow5{
+        position: relative; left:340px; bottom:360px; 
+        
+      }
+
+      /* hover images to zoom in */
+      .AirDrop4:hover {
+        transform: scale(1.1);
+      }
+
+      .Face4:hover {
+        transform: scale(1.1);
+      }
+
+      .Short4:hover {
+        transform: scale(1.1);
+      }
+      
+
+      .AirPlay4:hover {
+        transform: scale(1.1);
+      }
+
+      .Control4:hover {
+        transform: scale(1.1);
+      }
+
+      .Apple_Products:hover {
+        transform: scale(1.1);
+      }
+
+      /* make footer to fit well  */
+      .footer2{
+        width:300%;
+        position: relative; right:500px;
+      }
+
+      /* position of text or border */
+      .brand{
+        position: relative; bottom:220px; left: 310px;
+        border-radius: 15px;
+        background: gold;
+        padding: 20px;
+        width: 500px; 
+        height: 200px;
+      }
+
+      .brand2{
+        text-align: center;
+      }
+
+      /* page 3 starts here */
+      .top{
+        text-align: center;
+        color: rgb(200, 173, 23);
+        position: relative; bottom:10px; 
+      }
+
+      /* position and style for images, text or border */
+      .top1{
+        position: relative; bottom:10px; left: 50px;
+        border-radius: 15px;
+        background: gold;
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+     .top11,.top12{
+        text-align: center;
+      }
+
+      .top13{
+        position: relative; bottom:230px; left:650px
+      }
+
+      .top2{
+        position: relative; bottom:160px; right:20px;
+        border-radius: 15px;
+        background: silver;
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+      .top21,.top22{
+        text-align: center;
+      }
+
+      .top23{
+        position: relative; bottom:210px; left:650px;
+      }
+    
+      .top3{
+        position: relative; bottom:130px; right:20px;
+        border-radius: 15px;
+        background: chocolate;
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+      .top31,.top32{
+        text-align: center;
+      }
+
+      .top33{
+        position: relative; bottom:205px; left:650px;
+      }
+    
+      .top4{
+        position: relative; bottom:130px; right:20px;
+        border-radius: 15px;
+        background: rgb(147, 193, 201);
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+      
+      .top41,.top42{
+        text-align: center;
+      }
+
+      .top43{
+        position: relative;  bottom:180px; left:650px;
+      }
+    
+      .top5{
+        position: relative; bottom:100px; right:20px;
+        border-radius: 15px;
+        background: rgb(147, 193, 201);
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+      .top51,.top52{
+        text-align: center;
+      }
+
+      .top53{
+        position: relative;  bottom:160px; left:650px;
+      }
+
+      .top6{
+        position: relative; bottom:80px; right:20px;
+        border-radius: 15px;
+        background: rgb(147, 193, 201);
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+      .top61,.top62{
+        text-align: center;
+      }
+
+      .top63{
+        position: relative;  bottom:180px; left:650px;
+      }
+
+      .top7{
+        position: relative; bottom:100px; right:20px;
+        border-radius: 15px;
+        background: rgb(147, 193, 201);
+        padding: 20px;
+        width: 550px; 
+        height: 210px;
+      }
+
+      .top71,.top72{
+        text-align: center;
+      }
+
+      .top73{
+        position: relative;  bottom:160px; left:650px;
+      }
+
+      /* make footer to fit well */
+      .footer3{
+        width:300%;
+        position: relative; right:220px;
+      }
+
+      /* hover images to zoom in */
+      .top13:hover {
+        transform: scale(1.1);
+      }
+
+      .top23:hover {
+        transform: scale(1.1);
+      }
+
+      .top33:hover {
+        transform: scale(1.1);
+      }
+
+      .top43:hover {
+        transform: scale(1.1);
+      }
+
+      .top53:hover {
+        transform: scale(1.1);
+      }
+
+      .top63:hover {
+        transform: scale(1.1);
+      }
+
+      .top73:hover {
+        transform: scale(1.1);
+      }
